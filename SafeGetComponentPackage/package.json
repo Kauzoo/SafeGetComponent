@@ -1,0 +1,12 @@
+{
+  "name": "org.nyr.safe-get-component",
+  "version": "1.0.0",
+  "displayName": "SafeGetComponent",
+  "description": "This is a cool package",
+  "unity": "2019.1",
+  "documentationUrl": "https://github.com/Kauzoo/SafeGetComponent/wiki",
+  "author": {
+    "name": "nyr",
+    "url": "https://github.com/Kauzoo"
+  }
+}
