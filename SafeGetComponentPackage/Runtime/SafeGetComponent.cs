@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using Component = UnityEngine.Component;
 
-namespace Nyr.UnityDev.Util
+namespace Nyr.Util
 {
     public class SafeGetComponentComponent : Component, ISafeGetComponent
     {

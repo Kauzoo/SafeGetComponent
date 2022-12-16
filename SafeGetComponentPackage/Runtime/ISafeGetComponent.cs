@@ -13,7 +13,7 @@ using Component = UnityEngine.Component;
  * Probably not necessary due to Generic type restriction
  */
 
-namespace Nyr.UnityDev.Util
+namespace Nyr.Util
 {
     public interface ISafeGetComponent
     {
@@ -105,7 +105,9 @@ namespace Nyr.UnityDev.Util
             component = ((Component)this).GetComponentInChildren<T>();
 
         public void NullableGetComponentInChildren<T>(ref T? target) where T : Component =>
-            target = NullableGetComponent<T>();
+            
+        
+        public T? SafeNullableGetComponentInChildren<T>() where T : Component => 
 
         #endregion
     }

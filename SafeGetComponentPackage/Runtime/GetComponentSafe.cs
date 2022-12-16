@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Nyr.UnityDev.Util
+namespace Nyr.Util
 {
     [UsedImplicitly]
     public static class GetComponentSafe

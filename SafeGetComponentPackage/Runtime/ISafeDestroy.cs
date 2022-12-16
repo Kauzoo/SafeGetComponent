@@ -2,7 +2,7 @@
 using Object = UnityEngine.Object;
 using Component = UnityEngine.Component;
 
-namespace Nyr.UnityDev.Util
+namespace Nyr.Util
 {
     public interface ISafeDestroy
     {
